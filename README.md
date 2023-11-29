@@ -1,27 +1,26 @@
 # Repository structure
 ```bash
-.
-├── nbr // NBR library
-│   ├── common // subpackage with recommendation metrics definition and common constants
-│   ├── dataset // subpackage with NBR dataset definition
-│   ├── model // subpackage with NBR models definition
-│   ├── preparation // subpackage with dataset preprocessing classes
-│   ├── trainer // subpackage with NBR trainer definition
-│   └── __init__.py
-└── notebooks // folder with experiments on three real-world datasets
-    ├── data // folder with unprocessed datasets
-    │   ├── dunnhumby.txt // Dunnhumby dataset
-    │   ├── ta_feng.txt // TaFeng dataset
-    │   └── taobao.txt // TaoBao dataset (purchase interactions only)
-    ├── testing_dnntsp // folder with testing DNNTSP model
-    │   ├── DNNTSP // DNNTSP library (author's version with minor modifications)
-    │   └── testing_dnntsp.ipynb // notebook with testing DNNTSP model
-    ├── testing_baselines.ipynb // notebook with testing TopPopular and TopPersonal models
-    ├── testing_repurchasemodule.ipynb // notebook with testing Repurchase Module only
-    ├── testing_slrc.ipynb // notebook with testing SLRC model
-    ├── testing_taiw.ipynb // notebook with testing TAIW model
-    ├── testing_taiwi.ipynb // notebook with testing TAIWI model
-    ├── testing_tifuknn.ipynb // notebook with testing TIFUKNN model
-    ├── testing_tifuknntd.ipynb // notebook with testing TIFUKNN-TA model
-    └── testing_upcf.ipynb // notebook with testing UPCF model
+├── nbr // Библиотека NBR
+│ ├── common // подпакет с определением рекомендательных показателей и общих констант
+│ ├── набор данных // подпакет с определением набора данных NBR
+│ ├── модель // подпакет с определением моделей NBR
+│ ├── подготовка // подпакет с классами предварительной обработки набора данных
+│ ├── тренер // подпакет с определением тренера NBR
+│ └── __init__.py
+└── блокноты // папка с экспериментами на трех реальных наборах данных
+├── данные // папка с необработанными наборами данных
+│ ├── dunnhumby.txt // Набор данных Dunnhumby
+│ ├── ta_feng.txt // Набор данных TaFeng
+│ └── taobao.txt // Набор данных TaoBao (только для взаимодействия с покупкой)
+├── testing_dnntsp // папка с тестируемой моделью DNNTSP
+│ ├── DNNTSP // Библиотека DNNTSP (авторская версия с незначительными изменениями)
+│ └── testing_dnntsp.ipynb // записная книжка с тестированием модели DNNTSP
+├── testing_baselines.ipynb // записная книжка с тестированием популярных и персональных моделей
+├── testing_repurchasemodule.ipynb // ноутбук только с тестируемым модулем обратной покупки
+├── testing_slrc.ipynb // ноутбук с тестируемой моделью SLRC
+├── testing_taiw.ipynb // ноутбук с тестируемой тайваньской моделью
+├── testing_taiwi.ipynb // записная книжка с тестированием тайваньской модели
+├── testing_tifuknn.ipynb // записная книжка с тестированием тайваньской модели
+├── testing_tifuknntd.ipynb // записная книжка с тестируемой моделью TIFUKNN-TA
+└── testing_upcf.ipynb // записная книжка с тестируемой моделью UPCF
 ```
